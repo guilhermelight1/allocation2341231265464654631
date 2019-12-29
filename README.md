@@ -1,1 +1,3 @@
-# allocation2341231265464654631
+This is a cleaned and simplified version of the core simulation / animation used in the [Inventory Management section](http://algorithms-tour.stitchfix.com/#inventory-management) of the [Stitch Fix Algorithms Tour](http://algorithms-tour.stitchfix.com/).
+
+The figure was drawn in a visual svg editor (based on a napkin sketch of the system) and the svg file was then copied into the html and cleaned up a bit. The dynamic elements are tagged with ids or classes for selection and manipulation within a d3.timer loop. Their line widths or rectangle heights are based on the timestep values of a dynamic system simulation which is also carried out within the d3.timer loop.

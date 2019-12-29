@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.water-line {
+  fill: none;
+  stroke: #86C6BD;
+  stroke-miterlimit: 10;
+}
+
+.water-area {
+  fill: #86C6BD;
+}
+
+.inventory-rect {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
+
+.label-text {
+  fill: #939598;
+  font-size: 12px;
+}
+
+.label-line {
+  fill: none;
+  stroke: #939598;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+</style>
+
+<body>
+
+<svg width="960" height="500" viewBox="0 100 576 400">
+
+<g id="im-clients-serving">
+  <g>
+    <line class="im-demand-return water-line" stroke-width="4" stroke-dasharray="2,2" x1="71" y1="374" x2="71" y2="217"/>
+    <line class="im-demand-supply water-line" stroke-width="6" stroke-dasharray="2,2" x1="62" y1="374" x2="62" y2="217"/>
+    <path class="water-area" d="M62,217.2l-4.3,2.6l-0.1-0.1l2.8-7c0.5-2.5,1.1-4.9,1.6-7.4c0.5,2.5,1.1,4.9,1.6,7.4l2.8,7l-0.1,0.1L62,217.2z"/>
+  </g>
+  <g>
+    <line class="im-demand-return water-line" stroke-width="4" stroke-dasharray="2,2" x1="143" y1="374" x2="143" y2="216.2"/>
+    <line class="im-demand-supply water-line" stroke-width="6" stroke-dasharray="2,2" x1="134" y1="372.5" x2="134" y2="216.2"/>
+    <path class="water-area" d="M134,216.4l-4.3,2.6l-0.1-0.1l2.8-7c0.5-2.5,1.1-4.9,1.6-7.4c0.5,2.5,1.1,4.9,1.6,7.4l2.8,7l-0.1,0.1L134,216.4z"/>
+  </g>
+  <g>
+    <line class="im-demand-return water-line" stroke-width="4" stroke-dasharray="2,2" x1="215" y1="374" x2="215" y2="216.2"/>
+    <line class="im-demand-supply water-line" stroke-width="6" stroke-dasharray="2,2" x1="206" y1="372.1" x2="206" y2="216.2"/>
+    <path class="water-area" d="M206,216.4l-4.3,2.6l-0.1-0.1l2.8-7c0.5-2.5,1.1-4.9,1.6-7.4c0.5,2.5,1.1,4.9,1.6,7.4l2.8,7l-0.1,0.1L206,216.4z"/>
+  </g>
+  <g>
+    <line class="im-demand-return water-line" stroke-width="4" stroke-dasharray="2,2" x1="287" y1="374.1" x2="287" y2="216.2"/>
+    <line class="im-demand-supply water-line" stroke-width="6" stroke-dasharray="2,2" x1="278" y1="374.1" x2="278" y2="216.2"/>
+    <path class="water-area" d="M278,216.4l-4.3,2.6l-0.1-0.1l2.8-7c0.5-2.5,1.1-4.9,1.6-7.4c0.5,2.5,1.1,4.9,1.6,7.4l2.8,7l-0.1,0.1L278,216.4z"/>
+  </g>
+  <g>
+    <line class="im-demand-return water-line" stroke-width="4" stroke-dasharray="2,2" x1="359.2" y1="373.5" x2="359.2" y2="216.2"/>
+    <line class="im-demand-supply water-line" stroke-width="6" stroke-dasharray="2,2" x1="350.2" y1="373.5" x2="350.2" y2="216.2"/>
+    <path class="water-area" d="M350.2,216.4l-4.3,2.6l-0.1-0.1l2.8-7c0.5-2.5,1.1-4.9,1.6-7.4c0.5,2.5,1.1,4.9,1.6,7.4l2.8,7l-0.1,0.1L350.2,216.4z"/>
+  </g>
+</g>
+<g id="im-purchase">
+  <line class="water-line" stroke-width="6" x1="53" y1="260" x2="485" y2="260"/>
+</g>
+<g id="im-allocation">
+  <line class="water-line" stroke-width="6" x1="80" y1="260" x2="80" y2="377"/>
+  <line class="water-line" stroke-width="6" x1="152" y1="260" x2="152" y2="377"/>
+  <line class="water-line" stroke-width="6" x1="224" y1="260" x2="224" y2="377"/>
+  <line class="water-line" stroke-width="6" x1="296" y1="260" x2="296" y2="377"/>
+  <line class="water-line" stroke-width="6" x1="368" y1="260" x2="368" y2="377"/>
+</g>
+<g id="im-clearance">
+  <polyline class="water-line" stroke-width="4" points="35,413 35,368 53,368   "/>
+  <polyline class="water-line" stroke-width="4" points="107,413 107,368 125,368  "/>
+  <polyline class="water-line" stroke-width="4" points="179,413 179,368 197,368  "/>
+  <polyline class="water-line" stroke-width="4" points="251,413 251,368 269,368  "/>
+  <polyline class="water-line" stroke-width="4" points="323,413 323,368 341,368  "/>
+</g>
+<g id="im-capacities">
+  <rect class="water-area" x="53" y="287" width="36" height="90"/>
+  <rect class="water-area" x="125" y="287" width="36" height="90"/>
+  <rect class="water-area" x="197" y="287" width="36" height="90"/>
+  <rect class="water-area" x="269" y="287" width="36" height="90"/>
+  <rect class="water-area" x="341" y="287" width="36" height="90"/>
+</g>
+
+<g id="im-labels">
+  <rect class="inventory-rect" x="125" y="278" width="36" height="99"/>
+  <rect class="inventory-rect" x="197" y="278" width="36" height="99"/>
+  <rect class="inventory-rect" x="269" y="278" width="36" height="99"/>
+  <rect class="inventory-rect" x="341" y="278" width="36" height="99"/>
+  <rect class="inventory-rect" x="53" y="278" width="36" height="99"/>
+  <text class="label-text" transform="matrix(1 0 0 1 18.7099 231.8853)">deliver</text>
+  <text class="label-text" transform="matrix(1 0 0 1 79.5687 240.0379)">return</text>
+  <text class="label-text" transform="matrix(1 0 0 1 433.04 249)">replenish</text>
+  <text class="label-text" transform="matrix(1 0 0 1 392.625 280)">allocate</text>
+  <text class="label-text" transform="matrix(1 0 0 1 341 404)">donate</text>
+  <line class="label-line" x1="393" y1="274.3" x2="372.4" y2="269.3"/>
+  <line class="label-line" x1="338" y1="399.5" x2="326.3" y2="394.3"/>
+</g>
+
+</svg>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="inventory-management.js"></script>
+
+<script>
+
+run_inventory_management_sim()
+
+</script>
